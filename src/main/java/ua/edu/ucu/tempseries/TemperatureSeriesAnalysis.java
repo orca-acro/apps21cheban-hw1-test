@@ -153,10 +153,10 @@ public class TemperatureSeriesAnalysis {
             }
             temperatureSeries = temporary;
         }
-        double sum = 0;
+        double suma = 0;
         for (int i = 0; i < temperatureSeries.length; i++) {
-            sum += temperatureSeries[i];
+            suma += temperatureSeries[i];
         }
-        return sum;
+        return suma;
     }
 }
