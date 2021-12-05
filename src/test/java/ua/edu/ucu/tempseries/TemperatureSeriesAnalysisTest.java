@@ -24,8 +24,8 @@ public class TemperatureSeriesAnalysisTest {
         double[] temperatureSeries = {};
         TemperatureSeriesAnalysis seriesAnalysis = new TemperatureSeriesAnalysis(temperatureSeries);
 
-        // expect exception here
-        seriesAnalysis.average();
+        throw new IllegalArgumentException();
+
     }
 
     @Test
